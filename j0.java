@@ -1,6 +1,12 @@
 //// This is your starter code.
 //// Put your username here.
 
-fill(255,0,0);
-rect( mouseX,mouseY, 30,50 );
+void setup() {
+  size(400,300);
+}
+void draw() {
+  fill(255,0,0);
+  rect( mouseX,mouseY, 30,50 );
+}
 
+//Added comment
